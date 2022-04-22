@@ -73,4 +73,4 @@ client.on('messageCreate',msg=>{
     }
 })
 
-client.login(OTY3MDQ4NjM2MDkxNDY5ODM0.YmKoOQ.XPENwlkgwL1lxXWnqMg7-HF_s0U)
+client.login(process.env.TOKEN)
