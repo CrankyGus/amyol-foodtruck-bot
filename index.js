@@ -65,6 +65,12 @@ client.on('messageCreate',msg=>{
     else if(msg.content == "กีอะไรดิน"){
         msg.reply(listItem[random()])
     }
+    else if(msg.content == "กีไรดิน"){
+        msg.reply(listItem[random()])
+    }
+    else if(msg.content == "หิว"){
+        msg.reply(listItem[random()])
+    }
     else if(msg.content == "โง่"){
         msg.reply("ให้ถามว่ากินไรดีไอเหี้ย")
     }
