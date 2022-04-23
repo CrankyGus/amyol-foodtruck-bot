@@ -23,7 +23,7 @@ client.on('ready',()=>{
 
 client.on('messageCreate',msg=>{
     
-    if(msg.content == "กินอะไรดี" || msg.content == "กินไรดี" || msg.content == "หิวข้าวจัง" || msg.content == "โอ้ยกินไรดี" || msg.content == "กีอะไรดิน" || msg.content == "กิน" ){
+    if(msg.content == "กินอะไรดี" || msg.content == "กินไรดี" || msg.content == "หิวข้าวจัง" || msg.content == "โอ้ยกินไรดี" || msg.content == "กีอะไรดิน" || msg.content == "กิน" || msg.content == "ทานอะไรดี" ){
         msg.reply(listItem[random()])
     }else if(msg.content == "หิว" || msg.content == "หิวจัง" || msg.content == "หิวว่ะ" ){
         msg.reply("ลองกิน"+listItem[random()]+"ดูสิ")
